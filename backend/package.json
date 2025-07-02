@@ -1,9 +1,9 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "ayush sahu",
+  "description": "AI Voice Assistant Project Backend",
+  "license": "UNLICENSED",
+  "author": "Arjeesh Palai",
   "type": "module",
   "main": "index.js",
   "scripts": {

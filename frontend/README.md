@@ -1,12 +1,32 @@
-# React + Vite
+# AI Voice Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an AI-powered voice assistant application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It uses Gemini, a large language model (LLM), to process and respond to user input through natural language.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Voice-based interaction with users
+- AI-generated responses using Gemini
+- Full-stack architecture built with the MERN stack
+- Modular and scalable codebase
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: React + Vite
+- Backend: Node.js + Express
+- Database: MongoDB Atlas
+- LLM: Gemini API
+- Other Tools: 
+  - Vite (frontend bundler)
+  - Nodemon (backend development server)
+  - dotenv (environment variable management)
+
+## Author
+
+Arjeesh Palai  
+I developed this project to explore the integration of large language models into full-stack web applications. The assistant's intelligence is powered by Gemini, and the frontend/backend are built using the MERN stack.
+
+## Notes
+
+- `.env` files are not included for security reasons. You will need to create your own and provide necessary values such as Gemini API keys and MongoDB connection strings.
+- After cloning the project, run `npm install` in both the `frontend` and `backend` directories to install dependencies.
+- Use `npm run dev` or equivalent scripts to start the development servers.

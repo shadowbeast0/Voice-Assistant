@@ -7,10 +7,10 @@ try {
 
     const existEmail=await User.findOne({email})
     if(existEmail){
-        return res.status(400).json({message:"email already exists !"})
+        return res.status(400).json({message:"Email already exists !"})
     }
     if(password.length<6){
-        return res.status(400).json({message:"password must be at least 6 characters !"})
+        return res.status(400).json({message:"Password must be at least 6 characters !"})
     }
 
     const hashedPassword=await bcrypt.hash(password,10)
