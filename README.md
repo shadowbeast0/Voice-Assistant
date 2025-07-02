@@ -27,6 +27,6 @@ I developed this project to explore the integration of large language models int
 
 ## Notes
 
-- `.env` files are not included for security reasons. You will need to create your own and provide necessary values such as Gemini API keys and MongoDB connection strings.
+- `.env` files are not included for security reasons. You will need to create your own and provide necessary values such as Gemini API keys and MongoDB connection strings. A template is kept in the `backend` folder for reference.
 - After cloning the project, run `npm install` in both the `frontend` and `backend` directories to install dependencies.
 - Use `npm run dev` or equivalent scripts to start the development servers.
